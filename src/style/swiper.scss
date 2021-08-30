@@ -1,0 +1,950 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  position: relative;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 2vmin;
+}
+
+html {
+  // background: #151515;
+  // background-image: url("../images/throughTheDoors.png");
+  // background: url('/./images/background.jpg');
+  color: #fff;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background {
+  background-image: url("../images/speakeasyRoom3.jpeg");
+  background-size: cover;
+  background-position: 50% 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.EEhamburger {
+  border-radius: 5px;
+  height: auto;
+  width: 9rem;
+  right: 52px;
+  top: 11px;
+  display:inline-block;
+  background: transparent;
+  transition: transform .7s;
+}
+
+.EEhamburger:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+.slider {
+  top: 61px;
+}
+
+// .slides {
+//   margin-top: 0%;
+//   margin-left: 18%;
+//   width: 64%;
+//   z-index: 2;
+//   display: grid;
+//   align-items: center;
+//   padding: 5% 5% 5% 5%;
+//   top: 95px;
+//   > .slide0, .slide1, .slide2 {
+//     grid-area: -1 / 1;
+//   }
+
+//   > button {
+//     appearance: none;
+//     background: transparent;
+//     border: none;
+//     color: white;
+//     position: absolute;
+//     font-size: 5rem;
+//     width: 5rem;
+//     height: 5rem;
+//     top: 30%;
+//     transition: opacity 0.3s;
+//     opacity: 0.7;
+//     z-index: 5;
+
+//     &:hover {
+//       opacity: 1;
+//     }
+
+//     &:focus {
+//       outline: none;
+//     }
+
+//     &:first-child {
+//       left: 38%;
+//       top: 81%;
+//     }
+//     &:last-child {
+//       right: 38%;
+//       top: 81%;
+//     }
+
+//     @media only screen and (max-width: 767px) {
+//       font-size: 15rem;
+//     }
+//     @media only screen and (max-width: 855px) {
+//       font-size: 10rem;
+//     }
+//   }
+//   @media only screen and (max-width: 855px) {
+//     margin-top: 65%;
+//     margin-left: 34%;
+//   }
+// }
+
+@media screen and (min-width: 1200px) {
+
+  .slider {
+    top: 18px;
+  }
+
+  .slides {
+    margin-top: 0%;
+    margin-left: 18%;
+    width: 64%;
+    z-index: 2;
+    display: grid;
+    align-items: center;
+    padding: 5% 5% 5% 5%;
+    top: 95px;
+    > .slide {
+      grid-area: -1 / 1;
+    }
+
+    > button {
+      appearance: none;
+      background: transparent;
+      border: none;
+      color: white;
+      position: absolute;
+      font-size: 5rem;
+      width: 5rem;
+      height: 5rem;
+      top: 30%;
+      transition: opacity 0.3s;
+      opacity: 0.7;
+      z-index: 5;
+
+      &:hover {
+        opacity: 1;
+      }
+
+      &:focus {
+        outline: none;
+      }
+
+      &:first-child {
+        left: 38%;
+        top: 71%;
+      }
+      &:last-child {
+        right: 38%;
+        top: 71%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1600px) {
+
+  .slider {
+    top: 61px;
+  }
+
+  .slideIframe2 {
+    background-color: transparent;
+    width: 33vw;
+    height: 20vw;
+    left: 16vw;
+    bottom: 8em;
+    opacity: 0.8;
+  }
+
+  .slides {
+    margin-top: 0%;
+    margin-left: 18%;
+    width: 64%;
+    z-index: 2;
+    display: grid;
+    align-items: center;
+    padding: 5% 5% 5% 5%;
+    top: 95px;
+    > .slide {
+      grid-area: -1 / 1;
+    }
+
+    > button {
+      appearance: none;
+      background: transparent;
+      border: none;
+      color: white;
+      position: absolute;
+      font-size: 5rem;
+      width: 5rem;
+      height: 5rem;
+      top: 30%;
+      transition: opacity 0.3s;
+      opacity: 0.7;
+      z-index: 5;
+
+      &:hover {
+        opacity: 1;
+      }
+
+      &:focus {
+        outline: none;
+      }
+
+      &:first-child {
+        left: 38%;
+        top: 75%;
+      }
+      &:last-child {
+        right: 38%;
+        top: 75%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 855px) {
+
+  .slider {
+    top: 61px;
+  }
+
+  .slideIframe2 {
+    background-color: transparent;
+    width: 33vw;
+    height: 20vw;
+    left: 16vw;
+    bottom: 8em;
+    opacity: 0.8;
+  }
+
+  .slides {
+    margin-top: 0%;
+    margin-left: 0%;
+    width: 64%;
+    z-index: 2;
+    display: grid;
+    // align-items: center;
+    // padding: 5% 5% 5% 5%;
+    top: 11%;
+    left: 23%;
+    > .slide {
+      grid-area: -1 / 1;
+    }
+
+    > button {
+      appearance: none;
+      background: transparent;
+      border: none;
+      color: white;
+      position: absolute;
+      font-size: 5rem;
+      width: 5rem;
+      height: 5rem;
+      top: 30%;
+      transition: opacity 0.3s;
+      opacity: 0.7;
+      z-index: 5;
+
+      &:hover {
+        opacity: 1;
+      }
+
+      &:focus {
+        outline: none;
+      }
+
+      &:first-child {
+        right: 106%;
+        top: 82%;
+      }
+      &:last-child {
+        left: 90%;
+        top: 82%;
+      }
+    }
+  }
+}
+
+// .slide {
+//   transform-style: preserve-3d;
+//    border: solid 1px red;
+
+//    &[data-active] {
+//      .slideContent > * {
+//        transform: none;
+//        opacity: 1;
+//      }
+//    }
+// }
+
+.slideContent {
+  // background-image: url("../images/ECsquare.png");
+  background: url("../images/ECsquare2.png")
+  no-repeat 50% 0;
+  width: 55vw;
+  height: 40vw;
+  bottom: 8vw;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: transform 0.5s ease-in-out;
+  opacity: 1.7;
+
+  display: grid;
+  align-content: center;
+
+  transform-style: preserve-3d;
+  transform: perspective(1000px) translateX(calc(100% * var(--offset))) 
+    rotateY(calc(-45deg * var(--dir)));
+  // transform: perspective(1000px) translateX(calc(115% * var(--offset)))
+  //   rotateY(calc(-35deg * var(--dir)));
+}
+
+iframe {
+  background-color: transparent;
+  border: 0;
+  color: red;
+}
+
+.IframeComponent {
+  left: 17vw;
+  bottom: 21em;
+  width: 33vw;
+  height: 19vw;
+}
+
+#games1 {
+  left: 10vw;
+  bottom: 8em;
+  width: 39vw;
+  height: 21vw;
+}
+
+// .slideIframe {
+//   border-radius: 5px;
+//   background: transparent;
+//   width: 21vw;
+//   height: 27vw;
+//   margin-top: -53%;
+//   padding-right: 0px;
+//   padding-left: 1px;
+//   border-bottom-width: 0px;
+//   border-bottom-style: solid;
+//   border-top-width: 0px;
+//   border-top-style: solid;
+//   left: 32vw;
+//   top: 1em;
+// }
+
+iframe.slideIframe {
+  opacity: 0.7;
+}
+
+.slideIframe2 {
+  // border-radius: 5px;
+  // padding-right: 0px;
+  // padding-left: 1px;
+  // border-bottom-width: 0px;
+  // border-bottom-style: solid;
+  // border-top-width: 0px;
+  // border-top-style: solid;
+  background-color: transparent;
+  width: 33vw;
+  height: 20vw;
+  left: 16vw;
+  bottom: 8em;
+  opacity: 0.8;
+  // box-shadow: 22px 1.1rem 0.6rem black;
+}
+
+div.shadow.slideIframe2 {
+  opacity: 0.8;
+  border-radius: 12px;
+  -moz-box-shadow: 4px 4px 14px #000;
+  -webkit-box-shadow: 4px 4px 14px #000;
+  box-shadow: 4px 4px 14px #000;
+  width: 31vw;
+  height: 18vw;
+  left: 18vw;
+  bottom: 6em;
+  z-index: -6;
+}
+
+.slideContentIframe {
+  width: 0px;
+  height: 15vw;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: transform 0.5s ease-in-out;
+
+  display: grid;
+
+  transform-style: preserve-3d;
+  
+}
+
+.cardInfo {
+  width: 100%;
+  padding-left: 3vw;
+}
+
+  @media screen and (max-width: 855px) {
+
+    .EEhamburger {
+      border-radius: 5px;
+      height: auto;
+      width: 5rem;
+      right: 16px;
+      top: 5px;
+      padding: 10px;
+    }
+
+    .cardInfo {
+      width: 109%;
+      padding-left: 3vw;
+      padding-right: 3vw;
+    }
+
+    .slideContent {
+      width: 94vw;
+      height: 190vw;
+      right: 20vw;
+    }
+
+    .slideContentInner {
+      transform-style: preserve-3d;
+      transform: translateZ(2rem);
+      transition: opacity 0.3s linear;
+      text-shadow: 22px 1.1rem 0.6rem black;
+      opacity: 0;
+      color: #f5e7c9;
+      text-align: justify;
+      line-height: 2.3;
+      bottom: 26vw;
+      width: 100%;
+      height: 61vw;
+  
+      .slideLastLogin,  
+      .slideLastDeposit, 
+      .slideWinnings,
+      .slideEarnings, 
+      .slideTips,
+      .slideDescription {
+        margin: 0;
+        font-size: 0.8rem;
+        font-weight: bold;
+        letter-spacing: 0.2ch;
+        bottom: 78vw;
+      }
+
+      .slideLastWin,
+      .slideMostWins,
+      .slideMostGames {
+        margin: 0;
+        font-size: 0.8rem;
+        font-weight: bold;
+        letter-spacing: 0.2ch;
+        bottom: 161vw;
+        width: 91%;
+      }
+
+      .slideCardOnFile,
+      .slideFunds,
+      .fundingSource,
+      .fundsAmount {
+        margin: 0;
+        font-size: 1rem;
+        letter-spacing: 0.0ch;
+        left: 5vw;
+        bottom: 155vw;
+        width: 78vw;
+      }
+
+      .slideIconFlex {
+        right: 21vw;
+        display: flex;
+        justify-content: left;
+        align-items: start;
+      }
+
+      .slideIcon {
+        height: 5em;
+        width: 6em;
+        flex: auto;
+        left: 10vw;
+        bottom: 78vw;
+      }
+
+      .addAmount {
+        left: 27vw;
+        bottom: 24vw;
+        width: 22vw;
+      }
+
+      .slideIframe {
+        border-radius: 5px;
+        background: transparent;
+        width: 46vw;
+        height: 83vw;
+        padding-right: 0px;
+        padding-left: 1px;
+        border-bottom-width: 0px;
+        border-bottom-style: solid;
+        border-top-width: 0px;
+        border-top-style: solid;
+        left: 19vw;
+        bottom: 71vw;
+        z-index: 999;
+      }
+  
+      .slideTitle {
+        font-size: 2.5rem;
+        font-weight: normal;
+        letter-spacing: 0.0ch;
+        text-transform: uppercase;
+        margin: 0;
+        width: 91%;
+        text-align: center;
+        bottom: 66vw;
+      }
+
+      .slideName {
+        font-size: 2.2rem;
+        font-weight: normal;
+        letter-spacing: 0.2ch;
+        text-transform: uppercase;
+        margin: 0;
+        width: 91%;
+        text-align: center;
+        bottom: 8em;
+      }
+
+      .slideNewCard {
+        width: 21em;
+      }
+  
+      .slideUserName {
+        font-size: 1.0rem;
+        font-weight: normal;
+        letter-spacing: 0.1ch;
+        width: 100%;
+        bottom: 79vw;
+      }
+
+      .slideIframe2 {
+        background-color: transparent;
+        width: 88vw;
+        height: 53vw;
+        left: 0vw;
+        bottom: 151vw;
+        opacity: 0.8;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+
+    .EEhamburger {
+      border-radius: 5px;
+      height: 4rem;
+      width: 4rem;
+      right: 3px;
+      top: 21px;
+    }
+
+    .slideContentInner {
+      transform-style: preserve-3d;
+      transform: translateZ(2rem);
+      transition: opacity 0.3s linear;
+      text-shadow: 22px 1.1rem 0.6rem black;
+      opacity: 0;
+      color: rgb(245, 231, 201);
+      // padding-left: 65px;
+      text-align: justify;
+      line-height: 2.4;
+      bottom: 6vw;
+      width: 200%;
+  
+      .slideLastLogin,  
+      .slideLastDeposit, 
+      .slideWinnings,
+      .slideEarnings, 
+      .slideTips,
+      .slideDescription {
+        margin: 0;
+        font-size: 0.8rem;
+        font-weight: bold;
+        letter-spacing: 0.2ch;
+      }
+
+      .fundingSource {
+        bottom: 28vw;
+        width: 24vw;
+      }
+
+      .slideIconFlex {
+        right: 21vw;
+        display: flex;
+        justify-content: left;
+        align-items: start;
+      }
+
+      .slideIcon {
+        height: 4em;
+        width: 5em;
+        flex: auto;
+        right: 0vw;
+        bottom: 14vw;
+      }
+
+      .slideCard, .slideCardOnFile {
+        right: 0vw;
+        width: 26vw;
+        bottom: 27vw;
+      }
+
+      .slideLastWin,
+      .slideMostWins,
+      .slideMostGames {
+        margin: 0;
+        font-size: 0.8rem;
+        font-weight: bold;
+        letter-spacing: 0.2ch;
+        bottom: 33vw;
+        width: 27vw;
+      }
+
+      .slideFunds,
+      .fundsAmount {
+        margin: 0;
+        font-size: 1rem;
+        letter-spacing: 0.0ch;
+        left: 32vw;
+        bottom: 49vw;
+        width: 14vw;
+      }
+
+      .addAmount {
+        left: 27vw;
+        bottom: 46vw;
+        width: 22vw;
+      }
+
+      .slideIframe {
+        border-radius: 5px;
+        background: transparent;
+        width: 21vw;
+        height: 27vw;
+        padding-right: 0px;
+        padding-left: 1px;
+        border-bottom-width: 0px;
+        border-bottom-style: solid;
+        border-top-width: 0px;
+        border-top-style: solid;
+        left: 30vw;
+        bottom: 20vw;
+      }
+
+      .slideIframe2 {
+        background-color: transparent;
+        width: 33vw;
+        height: 20vw;
+        left: 16vw;
+        bottom: 35vw;
+        opacity: 0.8;
+      }
+  
+      .slideTitle {
+        font-size: 2.5rem;
+        font-weight: normal;
+        letter-spacing: 0.0ch;
+        text-transform: uppercase;
+        margin: 0;
+        width: 100%;
+        text-align: left;
+      }
+
+      .slideName {
+        font-size: 2.2rem;
+        font-weight: normal;
+        letter-spacing: 0.2ch;
+        text-transform: uppercase;
+        margin: 0;
+        width: 50%;
+        text-align: left;
+        bottom: 1em;
+      }
+
+      .slideNewCard {
+        width: 21em;
+      }
+  
+      .slideUserName {
+        font-size: 1.5rem;
+        font-weight: normal;
+        letter-spacing: 0.1ch;
+        width: 101%;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1600px) {
+    .slideContentInner {
+      transform-style: preserve-3d;
+      transform: translateZ(2rem);
+      transition: opacity 0.3s linear;
+      text-shadow: 22px 1.1rem 0.6rem black;
+      opacity: 0;
+      color: rgb(245, 231, 201);
+      padding-left: 65px;
+      text-align: justify;
+      line-height: 2.4;
+      bottom: 9vw;
+  
+      .slideUserName,
+      .slideName,
+      .slideLastLogin,
+      .slideLastDeposit,
+      .slideWinnings,
+      .slideEarnings,  
+      .slideTips,
+      .slideDescription {
+        margin: 0;
+        font-size: 0.8rem;
+        font-weight: bold;
+        letter-spacing: 0.2ch;
+        top: 0vw;
+      }
+
+      .slideIframe {
+        border-radius: 5px;
+        background: transparent;
+        width: 21vw;
+        height: 27vw;
+        padding-right: 0px;
+        padding-left: 1px;
+        border-bottom-width: 0px;
+        border-bottom-style: solid;
+        border-top-width: 0px;
+        border-top-style: solid;
+        left: 26vw;
+        bottom: 18vw;
+      }
+  
+      .slideTitle {
+        font-size: 2.5rem;
+        font-weight: normal;
+        letter-spacing: 0.2ch;
+        text-transform: uppercase;
+        margin: 0;
+        width: 50%;
+        right: 4vw;
+        text-align: left;
+      }
+
+      .slideFunds {
+        left: 26vw;
+        bottom: 45vw;
+        width: 14vw;
+      }
+
+      .fundsAmount {
+        left: 26vw;
+        bottom: 45vw;
+        width: 8vw;
+      }
+
+      .fundingSource {
+        right: 4vw;
+        bottom: 29vw;
+        width: 24vw;
+      }
+
+      .slideIconFlex {
+        right: 21vw;
+        display: flex;
+        justify-content: left;
+        align-items: start;
+      }
+
+      .slideIcon {
+        height: 4em;
+        width: 5em;
+        flex: auto;
+        right: 4vw;
+        bottom: 14vw;
+      }
+
+      .slideCard, .slideCardOnFile {
+        right: 4vw;
+        width: 27vw;
+        bottom: 27vw;
+      }
+
+      .addAmount {
+        left: 22vw;
+        bottom: 40vw;
+        width: 22vw;
+      }
+  
+      .slideUserName {
+        font-size: 1.5rem;
+        font-weight: normal;
+        letter-spacing: 0.1ch;
+      }
+
+      .slideMostGames, .slideMostWins, .slideLastWin {
+        right: 4vw;
+        bottom: 31vw;
+        width: 23vw;
+      }
+
+      .slideIframe2 {
+        background-color: transparent;
+        width: 33vw;
+        height: 20vw;
+        left: 13vw;
+        bottom: 30vw;
+        opacity: 0.8;
+      }
+    }
+  }
+
+    // .slideContentInner[data-active] {
+
+      // .slideTitle::before {
+      //   content: "Welcome Back ";
+      // }
+
+      // .slideUserName::before {
+      //   content: "User Name: ";
+      //   color: #eca9a9;
+      // }
+
+      // .slideLastLogin::before {
+      //   content: "Last Login: ";
+      //   color: #eca9a9;
+      // }
+
+      // .slideTips::before {
+      //   content: "Tips: ";
+      //   color: #eca9a9;
+      // }
+
+      // .slideEarnings::before {
+      //   content: "My Earnings: ";
+      //   color: #eca9a9;
+      // }
+
+      // .slideFunds::before {
+      //   content: "Funds: ";
+      //   color: #eca9a9;
+      // }
+
+      // .slideLastDeposit::before {
+      //   content: "Last Deposit: ";
+      //   color: #eca9a9;
+      // }
+
+      // .slideLastWin::before {
+      //   content: "Last Win: ";
+      //   color: #eca9a9;
+      // }
+
+      // .slideMostWins::before {
+      //   content: "Most Wins: ";
+      //   color: #eca9a9;
+      // }
+    // }
+  
+
+
+.slideBackground {
+  position: fixed;
+  top: 0;
+  left: -10%;
+  right: -10%;
+  bottom: 0;
+  background-size: cover;
+  background-position: center center;
+  // background-image: url("../images/ECsquare2.png");
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s linear, transform 0.3s ease-in-out;
+  pointer-events: none;
+
+  transform: translateX(calc(10% * var(--dir)));
+}
+
+.slide[data-active] {
+  z-index: 2;
+  pointer-events: auto;
+
+  .slideBackground {
+    opacity: 0.2;
+    transform: none;
+    background-image: url("../images/ECsquare2.png");
+  }
+
+  .slideContentInner {
+    opacity: 1;
+  }
+
+  .slideContent {
+    --x: calc(var(--px) - 0.5);
+    --y: calc(var(--py) - 0.5);
+    opacity: 1;
+
+    transform: perspective(1000px);
+
+    &:hover {
+      transition: none;
+      transform: perspective(1000px) rotateY(calc(var(--x) * 5deg))
+        rotateX(calc(var(--y) * -5deg));
+    }
+  }
+}
+
+
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+button {
+  position: absolute;
+}
+
+.iframeSrc {
+  bottom: 8vw;
+}

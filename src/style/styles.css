@@ -1,0 +1,35 @@
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: black;
+}
+
+/* .wrapper {
+  padding: 20px;
+} */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 2;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hideButton {
+  z-index: 2;
+  top: 10px;
+}
