@@ -51,13 +51,13 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <>
-        <GlobalStyles />
+        {/* <GlobalStyles />
         <div ref={node}>
           <FocusLock disabled={!open}>
             <Burger open={open} setOpen={setOpen} aria-controls={menuId} />
             <Menu open={open} setOpen={setOpen} id={menuId} />
           </FocusLock>
-        </div>
+        </div> */}
     <BrowserRouter basename="/empyreanapp">
     <Links />
       <Route
