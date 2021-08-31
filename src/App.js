@@ -59,7 +59,7 @@ const App = () => {
             <Menu open={open} setOpen={setOpen} id={menuId} />
           </FocusLock>
         </div>
-    <BrowserRouter basename="/empyreanapp">
+    <BrowserRouter basename="/empyreanwebapp">
     <Links />
       <Route
         render={({ location }) => {

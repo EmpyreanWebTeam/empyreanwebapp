@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/empyreanwebapp/static/css/main.ee4e3d04.chunk.css",
-    "main.js": "/empyreanwebapp/static/js/main.8e89f49e.chunk.js",
-    "main.js.map": "/empyreanwebapp/static/js/main.8e89f49e.chunk.js.map",
+    "main.js": "/empyreanwebapp/static/js/main.ae5cc7e6.chunk.js",
+    "main.js.map": "/empyreanwebapp/static/js/main.ae5cc7e6.chunk.js.map",
     "runtime-main.js": "/empyreanwebapp/static/js/runtime-main.54053701.js",
     "runtime-main.js.map": "/empyreanwebapp/static/js/runtime-main.54053701.js.map",
     "static/js/2.53840a68.chunk.js": "/empyreanwebapp/static/js/2.53840a68.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.54053701.js",
     "static/js/2.53840a68.chunk.js",
     "static/css/main.ee4e3d04.chunk.css",
-    "static/js/main.8e89f49e.chunk.js"
+    "static/js/main.ae5cc7e6.chunk.js"
   ]
 }
