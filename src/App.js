@@ -34,7 +34,7 @@ const Links = () => (
 );
 
 
-function App() {
+const App = () => {
 
   const [open, setOpen] = useState(false);
   const node = useRef();
@@ -49,6 +49,7 @@ function App() {
   // }
 
   return (
+    <div>
     <ThemeProvider theme={theme}>
       <>
         <GlobalStyles />
@@ -87,6 +88,7 @@ function App() {
     </BrowserRouter>
     </>
     </ThemeProvider>
+    </div>
   );
 }
 
