@@ -75,7 +75,7 @@ function App() {
               </Route> */}
               <Route
                 exact
-                path='/'
+                path='/empyreanwebapp/'
                 component={Home}>
               </Route>
               
