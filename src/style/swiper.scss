@@ -734,7 +734,7 @@ div.shadow.slideIframe2 {
       bottom: 9vw;
   
       .slideUserName,
-      .slideName,
+      // .slideName,
       .slideLastLogin,
       .slideLastDeposit,
       .slideWinnings,
@@ -745,7 +745,13 @@ div.shadow.slideIframe2 {
         font-size: 0.8rem;
         font-weight: bold;
         letter-spacing: 0.2ch;
-        top: 0vw;
+        bottom: 2vw;
+        right: 4vw;
+        width: -moz-fit-content;
+      }
+
+      .slideName {
+        font-weight: bold;
       }
 
       .slideIframe {
@@ -776,19 +782,19 @@ div.shadow.slideIframe2 {
 
       .slideFunds {
         left: 26vw;
-        bottom: 45vw;
+        bottom: 56vw;
         width: 14vw;
       }
 
       .fundsAmount {
         left: 26vw;
-        bottom: 45vw;
+        bottom: 56vw;
         width: 8vw;
       }
 
       .fundingSource {
         right: 4vw;
-        bottom: 29vw;
+        bottom: 30vw;
         width: 24vw;
       }
 
@@ -797,6 +803,7 @@ div.shadow.slideIframe2 {
         display: flex;
         justify-content: left;
         align-items: start;
+        bottom: 3vw;
       }
 
       .slideIcon {
@@ -810,12 +817,12 @@ div.shadow.slideIframe2 {
       .slideCard, .slideCardOnFile {
         right: 4vw;
         width: 27vw;
-        bottom: 27vw;
+        bottom: 32vw;
       }
 
       .addAmount {
         left: 22vw;
-        bottom: 40vw;
+        bottom: 54vw;
         width: 22vw;
       }
   
@@ -827,7 +834,7 @@ div.shadow.slideIframe2 {
 
       .slideMostGames, .slideMostWins, .slideLastWin {
         right: 4vw;
-        bottom: 31vw;
+        bottom: 35vw;
         width: 23vw;
       }
 
@@ -835,8 +842,8 @@ div.shadow.slideIframe2 {
         background-color: transparent;
         width: 33vw;
         height: 20vw;
-        left: 13vw;
-        bottom: 30vw;
+        left: 4vw;
+        bottom: 33vw;
         opacity: 0.8;
       }
     }

@@ -1,3 +1,15 @@
+* {
+  box-sizing: border-box;
+  font-family: "BlairITC TT";
+  src: local("BlairITC TT"),
+   url("./fonts/blairitc-tt-bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+.font-face-gm {
+  font-family: "BlairITC TT";
+ }
+
 .App {
   text-align: center;
 }

@@ -7,6 +7,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: "BlairITC TT";
+  src: local("BlairITC TT"),
+   url("./fonts/blairitc-tt-bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
