@@ -58,7 +58,7 @@ function App() {
             <Menu open={open} setOpen={setOpen} id={menuId} />
           </FocusLock>
         </div>
-    <BrowserRouter>
+    <BrowserRouter basename="/empyreanapp">
     <Links />
       <Route
         render={({ location }) => {
@@ -75,7 +75,7 @@ function App() {
               </Route> */}
               <Route
                 exact
-                path='/empyreanwebapp/'
+                path='/'
                 component={Home}>
               </Route>
               
