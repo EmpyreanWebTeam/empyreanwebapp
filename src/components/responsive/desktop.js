@@ -4,6 +4,7 @@ import ImageDepthMap from 'react-depth-map'
 
 // Components
 import Slides from '../slides';
+import FadeInAnimation from "../FadeInAnimation";
 
 //Style
 import "../../style/swiper.scss";
@@ -26,12 +27,14 @@ function Desktop() {
                     onClick={() => setShow(show => !show)}>
               {show ? "hide" : "show"}
             </button> */}
-              
+            <div>
+              <FadeInAnimation direction="up">
                 <div className="slider">
                   <Slides />
                 </div>
+              </FadeInAnimation>
               
-            <div className="background">
+            
               <ImageDepthMap
                 id="gl"
                 originalImg={Room}

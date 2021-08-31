@@ -4,6 +4,7 @@ import ImageDepthMap from 'react-depth-map'
 
 // Components
 import Slides from '../slides';
+import FadeInAnimation from "../FadeInAnimation";
 
 // Images
 import Room from '../../images/speakeasyRoom3.jpeg';
@@ -28,9 +29,11 @@ function Laptop() {
               {show ? "hide" : "show"}
             </button> */}
               
+              <FadeInAnimation direction="up">
                 <div className="slider">
                   <Slides />
                 </div>
+              </FadeInAnimation>
               
             <div className="background">
               <ImageDepthMap
