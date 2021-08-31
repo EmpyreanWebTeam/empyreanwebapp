@@ -160,12 +160,12 @@ body {
       }
 
       &:first-child {
-        left: 38%;
-        top: 71%;
+        right: 100%;
+        top: 30%;
       }
       &:last-child {
-        right: 38%;
-        top: 71%;
+        left: 100%;
+        top: 30%;
       }
     }
   }
@@ -286,11 +286,11 @@ body {
 
       &:first-child {
         right: 106%;
-        top: 82%;
+        top: 37%;
       }
       &:last-child {
         left: 90%;
-        top: 82%;
+        top: 37%;
       }
     }
   }
