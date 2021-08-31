@@ -1,25 +1,21 @@
 import '../App.css';
+import '../style/styles.css';
 import React from 'react';
 import Room from '../images/speakeasyRoom3.jpeg';
+import Slides from './slides';
+
 
 class Home extends React.Component {
     render() {
         return (
-            <div className="App">
-                <header className="App-header">
-                <img src={Room} className="App-logo" alt="logo" />
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
-                </header>
+            <div>
+            <div className="slider">
+                <Slides />
+            </div>
+                <img src={Room} 
+                     className="background" 
+                     alt="background" 
+                />
             </div>
             
         );
