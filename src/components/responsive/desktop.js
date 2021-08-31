@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { useMediaQuery } from 'react-responsive';
-// import ImageDepthMap from 'react-depth-map'
+import ImageDepthMap from 'react-depth-map'
 
 // Components
-// import Fade from "../Fade";
 import Slides from '../slides';
 
 //Style
@@ -12,8 +11,8 @@ import "../../style/base.css";
 // import "../../style/styles.css";
 
 // Images
-import Scifi from '../../images/speakeasyRoom3.jpeg';
-// import Depth from '../../images/depthmap.jpg';
+import Room from '../../images/speakeasyRoom3.jpeg';
+import Depth from '../../images/depthmap.jpg';
 
 function Desktop() {
     // const [show, setShow] = useState(false);
@@ -27,21 +26,19 @@ function Desktop() {
                     onClick={() => setShow(show => !show)}>
               {show ? "hide" : "show"}
             </button> */}
-            {/* <Fade show={show}> */}
               
                 <div className="slider">
                   <Slides />
                 </div>
               
-            {/* </Fade> */}
             <div className="background">
-              {/* <ImageDepthMap
+              <ImageDepthMap
                 id="gl"
-                originalImg={Scifi}
+                originalImg={Room}
                 depthImg={Depth}
                 verticalThreshold={25}
                 horizontalThreshold={15} > 
-              </ImageDepthMap> */}
+              </ImageDepthMap>
             </div>
           </Desktop>
     );
