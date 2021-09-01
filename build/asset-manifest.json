@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/empyreanwebapp/static/css/main.1921b5f4.chunk.css",
-    "main.js": "/empyreanwebapp/static/js/main.1c108f63.chunk.js",
-    "main.js.map": "/empyreanwebapp/static/js/main.1c108f63.chunk.js.map",
-    "runtime-main.js": "/empyreanwebapp/static/js/runtime-main.695f7946.js",
-    "runtime-main.js.map": "/empyreanwebapp/static/js/runtime-main.695f7946.js.map",
-    "static/js/2.36326cdf.chunk.js": "/empyreanwebapp/static/js/2.36326cdf.chunk.js",
-    "static/js/2.36326cdf.chunk.js.map": "/empyreanwebapp/static/js/2.36326cdf.chunk.js.map",
-    "static/js/3.c773fa13.chunk.js": "/empyreanwebapp/static/js/3.c773fa13.chunk.js",
-    "static/js/3.c773fa13.chunk.js.map": "/empyreanwebapp/static/js/3.c773fa13.chunk.js.map",
+    "main.css": "/empyreanwebapp/static/css/main.a9e94592.chunk.css",
+    "main.js": "/empyreanwebapp/static/js/main.4f8687fc.chunk.js",
+    "main.js.map": "/empyreanwebapp/static/js/main.4f8687fc.chunk.js.map",
+    "runtime-main.js": "/empyreanwebapp/static/js/runtime-main.99bcbc79.js",
+    "runtime-main.js.map": "/empyreanwebapp/static/js/runtime-main.99bcbc79.js.map",
+    "static/js/2.aae62544.chunk.js": "/empyreanwebapp/static/js/2.aae62544.chunk.js",
+    "static/js/2.aae62544.chunk.js.map": "/empyreanwebapp/static/js/2.aae62544.chunk.js.map",
+    "static/js/3.2ce1d64a.chunk.js": "/empyreanwebapp/static/js/3.2ce1d64a.chunk.js",
+    "static/js/3.2ce1d64a.chunk.js.map": "/empyreanwebapp/static/js/3.2ce1d64a.chunk.js.map",
     "index.html": "/empyreanwebapp/index.html",
-    "static/css/main.1921b5f4.chunk.css.map": "/empyreanwebapp/static/css/main.1921b5f4.chunk.css.map",
-    "static/js/2.36326cdf.chunk.js.LICENSE.txt": "/empyreanwebapp/static/js/2.36326cdf.chunk.js.LICENSE.txt",
+    "static/css/main.a9e94592.chunk.css.map": "/empyreanwebapp/static/css/main.a9e94592.chunk.css.map",
+    "static/js/2.aae62544.chunk.js.LICENSE.txt": "/empyreanwebapp/static/js/2.aae62544.chunk.js.LICENSE.txt",
     "static/media/swiper.scss": "/empyreanwebapp/static/media/speakeasyRoom3.6cd63745.jpeg",
-    "static/media/EEcube1.7a284c55.png": "/empyreanwebapp/static/media/EEcube1.7a284c55.png"
+    "static/media/EEcube1.7a284c55.png": "/empyreanwebapp/static/media/EEcube1.7a284c55.png",
+    "static/media/App.css": "/empyreanwebapp/static/media/blairitc-tt-bold.0b06718a.ttf",
+    "static/media/depthmap.f669ba56.jpg": "/empyreanwebapp/static/media/depthmap.f669ba56.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.695f7946.js",
-    "static/js/2.36326cdf.chunk.js",
-    "static/css/main.1921b5f4.chunk.css",
-    "static/js/main.1c108f63.chunk.js"
+    "static/js/runtime-main.99bcbc79.js",
+    "static/js/2.aae62544.chunk.js",
+    "static/css/main.a9e94592.chunk.css",
+    "static/js/main.4f8687fc.chunk.js"
   ]
 }
