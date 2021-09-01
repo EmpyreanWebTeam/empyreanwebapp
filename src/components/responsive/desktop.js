@@ -1,18 +1,15 @@
 import React from "react";
 import { useMediaQuery } from 'react-responsive';
-import ImageDepthMap from 'react-depth-map'
 
 // Components
 import Slides from '../slides';
 
 //Style
 import "../../style/swiper.scss";
+import "../../style/swiperDesktop.scss"
 import "../../style/base.css";
 // import "../../style/styles.css";
 
-// Images
-import Room from '../../images/speakeasyRoom3.jpeg';
-import Depth from '../../images/depthmap.jpg';
 
 function Desktop() {
     // const [show, setShow] = useState(false);
@@ -27,19 +24,10 @@ function Desktop() {
               {show ? "hide" : "show"}
             </button> */}
               
-                <div className="slider">
+                <div className="background">
                   <Slides />
                 </div>
               
-            <div className="background">
-              <ImageDepthMap
-                id="gl"
-                originalImg={Room}
-                depthImg={Depth}
-                verticalThreshold={25}
-                horizontalThreshold={15} > 
-              </ImageDepthMap>
-            </div>
           </Desktop>
     );
 };
