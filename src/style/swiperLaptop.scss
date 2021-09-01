@@ -1,4 +1,48 @@
 @media screen and (min-width: 1200px) {
+
+  // .card0 {
+  //   width: 50%;
+  //   height: 100%;
+  // }
+
+  // .card1 {
+  //   width: 100%;
+  // }
+
+  // .card2 {
+  //   width: 100%;
+  // }
+
+  // .card3 {
+  //   width: 100%;
+  //   bottom: 38vw;
+  //   height: 31vw;
+  // }
+
+  // .card4 {
+  //   width: 100%;
+  // }
+
+  // .card5 {
+  //   width: 100%;
+  // }
+
+  // .card6 {
+  //   width: 100%;
+  // }
+
+  // .card7 {
+  //   width: 100%;
+  // }
+
+  // .card8 {
+  //   width: 100%;
+  // }
+
+  .randomInfo {
+    width: 100%;
+  }
+
   .slider {
     top: 18px;
   }
@@ -59,26 +103,19 @@
 
     .slideContentInner {
       transform-style: preserve-3d;
-      // transform: translateZ(2rem);
       transition: opacity 0.3s linear;
-      text-shadow: 22px 1.1rem 0.6rem black;
-      // opacity: 0;
+      text-shadow: -10px 10px 9px black;
+      bottom: 14vw;
+
+      // color: #f5e7c9;
+      // background: #000000d4;
+      // border: solid 1px #9b630c;
+      // border-radius: 15px;
+      // opacity: 0.85;
       // text-align: justify;
       // line-height: 2.4;
-      bottom: 14vw;
-      // width: 200%;
-
-      color: #f5e7c9;
-      background: #aa8e5a;
-      border: solid 1px #9b630c;
-      border-radius: 15px;
-      opacity: 0.85;
-      text-align: justify;
-      line-height: 2.4;
-      // top: 18vw;
-      width: 163%;
-      height: 31vw;
-      right: 3vw;
+      // width: 163%;
+      // height: 31vw;
   
       .slideWelcome,
       .slideName,
@@ -130,8 +167,7 @@
         font-size: 0.8rem;
         font-weight: bold;
         letter-spacing: 0.2ch;
-        bottom: 33vw;
-        width: 27vw;
+        width: 20vw;
       }
 
       .slideFunds,
@@ -162,16 +198,29 @@
         border-top-width: 0px;
         border-top-style: solid;
         left: 30vw;
-        bottom: 20vw;
+        bottom: 17vw;
       }
 
       .slideIframe2 {
         background-color: transparent;
         width: 33vw;
         height: 20vw;
-        left: 16vw;
-        bottom: 35vw;
         opacity: 0.8;
+        align-content: center;
+        display: grid;
+        left: 37%;
+        bottom: 22%;
+      }
+      
+      .slideTitle {
+        font-size: 2.5rem;
+        font-weight: normal;
+        letter-spacing: 0.0ch;
+        text-transform: uppercase;
+        margin: 0;
+        width: 50%;
+        text-align: left;
+        padding: 10px 10px 10px 23px;
       }
   
       .slideWelcome {
@@ -182,6 +231,19 @@
         margin: 0;
         width: 100%;
         text-align: left;
+        top: 1%;
+      }
+
+      .slideBack {
+        font-size: 2.5rem;
+        font-weight: normal;
+        letter-spacing: 0.0ch;
+        text-transform: uppercase;
+        margin: 0;
+        width: 100%;
+        text-align: right;
+        left: 30%;
+        bottom: 21%;
       }
 
       .slideName {
@@ -190,9 +252,10 @@
         letter-spacing: 0.2ch;
         text-transform: uppercase;
         margin: 0;
-        width: 50%;
-        text-align: left;
-        bottom: 1em;
+        width: 100%;
+        text-align: center;
+        bottom: 2em;
+        left: 20%;
       }
 
       .slideNewCard {
