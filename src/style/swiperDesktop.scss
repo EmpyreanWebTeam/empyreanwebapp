@@ -1,0 +1,183 @@
+@media screen and (min-width: 1600px) {
+
+    .slider {
+        top: 61px;
+      }
+    
+      .slideIframe2 {
+        background-color: transparent;
+        width: 33vw;
+        height: 20vw;
+        left: 16vw;
+        bottom: 8em;
+        opacity: 0.8;
+      }
+    
+      .slides {
+        margin-top: 0%;
+        margin-left: 18%;
+        width: 64%;
+        z-index: 2;
+        display: grid;
+        align-items: center;
+        padding: 5% 5% 5% 5%;
+        top: 95px;
+        > .slide {
+          grid-area: -1 / 1;
+        }
+    
+        > button {
+          appearance: none;
+          background: transparent;
+          border: none;
+          color: white;
+          position: absolute;
+          font-size: 5rem;
+          width: 5rem;
+          height: 5rem;
+          top: 30%;
+          transition: opacity 0.3s;
+          opacity: 0.7;
+          z-index: 5;
+    
+          &:hover {
+            opacity: 1;
+          }
+    
+          &:focus {
+            outline: none;
+          }
+    
+          &:first-child {
+            right: 103%;
+            top: 25%;
+          }
+          &:last-child {
+            left: 103%;
+            top: 25%;
+          }
+        }
+      }
+
+    .slideContentInner {
+      transform-style: preserve-3d;
+    //   transform: translateZ(2rem);
+      transition: opacity 0.3s linear;
+      text-shadow: 22px 1.1rem 0.6rem black;
+      bottom: 9vw;
+  
+      .slideUserName,
+      // .slideName,
+      .slideLastLogin,
+      .slideLastDeposit,
+      .slideWinnings,
+      .slideEarnings,  
+      .slideTips,
+      .slideDescription {
+        margin: 0;
+        font-size: 0.8rem;
+        font-weight: bold;
+        letter-spacing: 0.2ch;
+        bottom: 2vw;
+        right: 4vw;
+        width: -moz-fit-content;
+      }
+
+      .slideName {
+        font-weight: bold;
+      }
+
+      .slideIframe {
+        border-radius: 5px;
+        background: transparent;
+        width: 21vw;
+        height: 27vw;
+        padding-right: 0px;
+        padding-left: 1px;
+        border-bottom-width: 0px;
+        border-bottom-style: solid;
+        border-top-width: 0px;
+        border-top-style: solid;
+        left: 26vw;
+        bottom: 18vw;
+      }
+  
+      .slideWelcome {
+        font-size: 2.5rem;
+        font-weight: normal;
+        letter-spacing: 0.2ch;
+        text-transform: uppercase;
+        margin: 0;
+        width: 50%;
+        right: 4vw;
+        text-align: left;
+      }
+
+      .slideFunds {
+        left: 26vw;
+        bottom: 56vw;
+        width: 14vw;
+      }
+
+      .fundsAmount {
+        left: 26vw;
+        bottom: 56vw;
+        width: 8vw;
+      }
+
+      .fundingSource {
+        right: 4vw;
+        bottom: 30vw;
+        width: 24vw;
+      }
+
+      .slideIconFlex {
+        right: 21vw;
+        display: flex;
+        justify-content: left;
+        align-items: start;
+        bottom: 3vw;
+      }
+
+      .slideIcon {
+        height: 4em;
+        width: 5em;
+        flex: auto;
+        right: 4vw;
+        bottom: 14vw;
+      }
+
+      .slideCard, .slideCardOnFile {
+        right: 4vw;
+        width: 27vw;
+        bottom: 32vw;
+      }
+
+      .addAmount {
+        left: 22vw;
+        bottom: 54vw;
+        width: 22vw;
+      }
+  
+      .slideUserName {
+        font-size: 1.5rem;
+        font-weight: normal;
+        letter-spacing: 0.1ch;
+      }
+
+      .slideMostGames, .slideMostWins, .slideLastWin {
+        right: 4vw;
+        bottom: 35vw;
+        width: 23vw;
+      }
+
+      .slideIframe2 {
+        background-color: transparent;
+        width: 33vw;
+        height: 20vw;
+        left: 4vw;
+        bottom: 33vw;
+        opacity: 0.8;
+      }
+    }
+  }

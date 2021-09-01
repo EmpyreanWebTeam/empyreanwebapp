@@ -1,0 +1,254 @@
+@media screen and (max-width: 855px) {
+
+    .slideBackground {
+        position: fixed;
+        top: 0;
+        left: -10%;
+        right: -10%;
+        bottom: 0;
+        background-size: cover;
+        background-position: center center;
+        z-index: -1;
+        opacity: 0;
+        transition: opacity 0.3s linear, transform 0.3s ease-in-out;
+        pointer-events: none;
+      
+        transform: translateX(calc(10% * var(--dir)));
+    }
+
+    .card0 {
+      width: 100%;
+      top: 42%;
+    }
+
+    .card1 {
+      width: 100%;
+    }
+
+    .card2 {
+      width: 100%;
+    }
+
+    .card3 {
+      width: 100%;
+    }
+
+    .slider {
+      top: 61px;
+    }
+  
+    .slideIframe2 {
+      background-color: transparent;
+      width: 33vw;
+      height: 20vw;
+      left: 16vw;
+      bottom: 8em;
+      opacity: 0.8;
+    }
+  
+    .slides {
+      margin-top: 0%;
+      margin-left: 0%;
+      width: 64%;
+      z-index: 2;
+      display: grid;
+      // align-items: center;
+      // padding: 5% 5% 5% 5%;
+      top: 11%;
+      left: 23%;
+      > .slide {
+        grid-area: -1 / 1;
+      }
+  
+      > button {
+        appearance: none;
+        background: transparent;
+        border: none;
+        color: white;
+        position: absolute;
+        font-size: 5rem;
+        width: 5rem;
+        height: 5rem;
+        top: 30%;
+        transition: opacity 0.3s;
+        opacity: 0.7;
+        z-index: 5;
+  
+        &:hover {
+          opacity: 1;
+        }
+  
+        &:focus {
+          outline: none;
+        }
+  
+        &:first-child {
+          right: 106%;
+          top: 37%;
+        }
+        &:last-child {
+          left: 90%;
+          top: 37%;
+        }
+      }
+    }
+
+    .EEhamburger {
+        border-radius: 5px;
+        height: auto;
+        width: 5rem;
+        right: 16px;
+        top: 5px;
+        padding: 10px;
+      }
+  
+      .cardInfo {
+        width: 100%;
+        height: 63%;
+        padding: 3vw;
+      }
+  
+      .slideContent {
+        width: 94vw;
+        height: 100%;
+        right: 20vw;
+      }
+  
+      .slideContentInner {
+        transform-style: preserve-3d;
+        transition: opacity 0.3s linear;
+        text-shadow: 22px 1.1rem 0.6rem black;
+        color: #f5e7c9;
+        background: #aa8e5a;
+        border: solid 1px #9b630c;
+        border-radius: 15px;
+        opacity: 0.85;
+        text-align: justify;
+        line-height: 2.4;
+        width: 100%;
+        height: 75%;
+        left: 113px;
+        top: 2%;
+    
+        .slideLastLogin,  
+        .slideLastDeposit, 
+        .slideWinnings,
+        .slideEarnings, 
+        .slideTips,
+        .slideDescription {
+          margin: 0;
+          font-size: 0.8rem;
+          font-weight: bold;
+          letter-spacing: 0.2ch;
+          bottom: 78vw;
+        }
+  
+        .slideLastWin,
+        .slideMostWins,
+        .slideMostGames {
+          margin: 0;
+          font-size: 0.8rem;
+          font-weight: bold;
+          letter-spacing: 0.2ch;
+          bottom: 161vw;
+          width: 91%;
+        }
+  
+        .slideCardOnFile,
+        .slideFunds,
+        .fundingSource,
+        .fundsAmount {
+          margin: 0;
+          font-size: 1rem;
+          letter-spacing: 0.0ch;
+          left: 5vw;
+          bottom: 155vw;
+          width: 78vw;
+        }
+  
+        .slideIconFlex {
+          right: 21vw;
+          display: flex;
+          justify-content: left;
+          align-items: start;
+        }
+  
+        .slideIcon {
+          height: 5em;
+          width: 6em;
+          flex: auto;
+          left: 10vw;
+          bottom: 78vw;
+        }
+  
+        .addAmount {
+          left: 27vw;
+          bottom: 24vw;
+          width: 22vw;
+        }
+  
+        .slideIframe {
+          background: transparent;
+          width: 100%;
+          height: 100%;
+          padding-right: 0px;
+          padding-left: 1px;
+          bottom: 71vw;
+          z-index: 999;
+        }
+    
+        .slideWelcome {
+          font-size: 2.5rem;
+          font-weight: normal;
+          letter-spacing: 0.0ch;
+          text-transform: uppercase;
+          margin: 0;
+          width: 100%;
+          text-align: center;
+          bottom: 62vw;
+        }
+
+        .slideBack {
+          font-size: 2.5rem;
+          font-weight: normal;
+          letter-spacing: 0.0ch;
+          text-transform: uppercase;
+          margin: 0;
+          width: 100%;
+          text-align: center;
+          bottom: 75vw;
+        }
+  
+        .slideName {
+          font-size: 2.2rem;
+          font-weight: normal;
+          letter-spacing: 0.2ch;
+          text-transform: uppercase;
+          margin: 0;
+          width: 100%;
+          text-align: center;
+          bottom: 8em;
+        }
+  
+        .slideNewCard {
+          width: 21em;
+        }
+    
+        .slideUserName {
+          font-size: 1.0rem;
+          font-weight: normal;
+          letter-spacing: 0.1ch;
+          width: 100%;
+          bottom: 37%;
+        }
+  
+        .slideIframe2 {
+          background-color: transparent;
+          width: 88vw;
+          height: 53vw;
+          left: 0vw;
+          bottom: 151vw;
+          opacity: 0.8;
+        }
+      }
+  }

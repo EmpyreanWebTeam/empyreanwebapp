@@ -1,17 +1,18 @@
 import React from "react";
 import { useMediaQuery } from 'react-responsive';
-import ImageDepthMap from 'react-depth-map'
+// import ImageDepthMap from 'react-depth-map'
 
 // Components
 import Slides from '../slides';
 import FadeInAnimation from "../FadeInAnimation";
 
 // Images
-import Room from '../../images/speakeasyRoom3.jpeg';
-import Depth from '../../images/depthmap.jpg';
+// import Room from '../../images/speakeasyRoom3.jpeg';
+// import Depth from '../../images/depthmap.jpg';
 
 // Style
 import "../../style/swiper.scss";
+import "../../style/swiperLaptop.scss";
 import "../../style/base.css";
 // import "../../style/styles.css";
 
@@ -36,14 +37,14 @@ function Laptop() {
               </FadeInAnimation>
               
             <div className="background">
-              <ImageDepthMap
+              {/* <ImageDepthMap
                 id="gl"
                 originalImg={Room}
                 depthImg={Depth}
                 verticalThreshold={25}
                 horizontalThreshold={15} 
                 >
-              </ImageDepthMap>
+              </ImageDepthMap> */}
             </div>
           </Laptop>
     )

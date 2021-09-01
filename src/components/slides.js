@@ -105,18 +105,13 @@ function Slide({ slide, offset }) {
             
               <div className="font-face-gm">
                       <div className="slideContentIframe">
-                        <div className="cardInfo">
+                        
                           <div className="slideContentInner">
-                            
-                                <h2 className="slideTitle">{slide.title}</h2>
+                              {/* SLIDER CARD 0 */}
+                              <div className="card0">
+                                <h2 className="slideWelcome">{slide.welcome}</h2>
+                                <h2 className="slideBack">{slide.back}</h2>
                                 <h3 className="slideName">{slide.name}</h3>
-                            
-                                {/* SLIDER CARD 0 */}
-                                <h3 className="slideUserName">{slide.userName}</h3>
-                                  <p className="slideLastLogin">{slide.lastLogin}</p>
-                                  <p className="slideWinnings">{slide.winnings}</p>
-                                  <p className="slideLastDeposit">{slide.lastDeposit}</p>
-                                  <p className="slideTips">{slide.tips}</p>
                                 <iframe
                                   className="slideIframe"
                                   src={slide.iframe}
@@ -127,8 +122,19 @@ function Slide({ slide, offset }) {
                                   allowFullScreen="false"
                                   allowtransparency="true">
                                 </iframe>
-                        
+                              </div>
+                            
                                 {/* SLIDER CARD 1 */}
+                            <div className="card1">
+                              <div className="cardInfo">
+                                <h3 className="slideUserName">{slide.userName}</h3>
+                                  <p className="slideLastLogin">{slide.lastLogin}</p>
+                                  <p className="slideWinnings">{slide.winnings}</p>
+                                  <p className="slideLastDeposit">{slide.lastDeposit}</p>
+                                  <p className="slideTips">{slide.tips}</p>
+                            </div>
+                                {/* SLIDER CARD 2 */}
+                              <div className="card2">
                                 <p className="fundingSource">{slide.fundingSource}</p>
                                 <div className="slideIconFlex">
                                   <div className="slideIcon">
@@ -158,8 +164,10 @@ function Slide({ slide, offset }) {
                                 <p className="fundsAmount">{slide.fundsAmount}</p>
                                 <h2 className="addAmount">{slide.addAmount}</h2>
                                 {/* <p className="slideAddAmount">{slide.addAmount}</p> */}
-                        
-                                {/* SLIDER CARD 2 */}
+                              </div>
+
+                                {/* SLIDER CARD 3 */}
+                              <div className="card3">
                                 <p className="slideMostGames">{slide.mostGames}</p>
                                 <p className="slideMostWins">{slide.mostWins}</p>
                                 <p className="slideLastWin">{slide.lastWin}</p>
@@ -173,7 +181,9 @@ function Slide({ slide, offset }) {
                                     allowFullScreen="false"
                                     allowtransparency="true">
                                   </iframe>
-                          </div>
+                              </div>
+                            </div>
+                          
                         
                       </div>
                   </div>

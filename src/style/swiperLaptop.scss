@@ -1,0 +1,209 @@
+@media screen and (min-width: 1200px) {
+  .slider {
+    top: 18px;
+  }
+
+  .slides {
+    margin-top: 0%;
+    margin-left: 18%;
+    width: 64%;
+    z-index: 2;
+    display: grid;
+    align-items: center;
+    padding: 5% 5% 5% 5%;
+    top: 95px;
+    > .slide {
+      grid-area: -1 / 1;
+    }
+
+    > button {
+      appearance: none;
+      background: transparent;
+      border: none;
+      color: white;
+      position: absolute;
+      font-size: 5rem;
+      width: 5rem;
+      height: 5rem;
+      top: 30%;
+      transition: opacity 0.3s;
+      opacity: 0.7;
+      z-index: 5;
+
+      &:hover {
+        opacity: 1;
+      }
+
+      &:focus {
+        outline: none;
+      }
+
+      &:first-child {
+        right: 100%;
+        top: 30%;
+      }
+      &:last-child {
+        left: 100%;
+        top: 30%;
+      }
+    }
+  }
+
+    .EEhamburger {
+      border-radius: 5px;
+      height: 4rem;
+      width: 4rem;
+      right: 3px;
+      top: 21px;
+    }
+
+    .slideContentInner {
+      transform-style: preserve-3d;
+      // transform: translateZ(2rem);
+      transition: opacity 0.3s linear;
+      text-shadow: 22px 1.1rem 0.6rem black;
+      // opacity: 0;
+      // text-align: justify;
+      // line-height: 2.4;
+      bottom: 14vw;
+      // width: 200%;
+
+      color: #f5e7c9;
+      background: #aa8e5a;
+      border: solid 1px #9b630c;
+      border-radius: 15px;
+      opacity: 0.85;
+      text-align: justify;
+      line-height: 2.4;
+      // top: 18vw;
+      width: 163%;
+      height: 31vw;
+      right: 3vw;
+  
+      .slideWelcome,
+      .slideName,
+      .slideUserName,
+      .slideLastLogin,  
+      .slideLastDeposit, 
+      .slideWinnings,
+      .slideEarnings, 
+      .slideTips,
+      .slideDescription {
+        margin: 0;
+        font-size: 0.8rem;
+        font-weight: bold;
+        letter-spacing: 0.2ch;
+        padding-left: 11px;
+        padding-right: 11px;
+      }
+
+      .fundingSource {
+        bottom: 28vw;
+        width: 24vw;
+      }
+
+      .slideIconFlex {
+        right: 21vw;
+        display: flex;
+        justify-content: left;
+        align-items: start;
+      }
+
+      .slideIcon {
+        height: 4em;
+        width: 5em;
+        flex: auto;
+        right: 0vw;
+        bottom: 14vw;
+      }
+
+      .slideCard, .slideCardOnFile {
+        right: 0vw;
+        width: 26vw;
+        bottom: 27vw;
+      }
+
+      .slideLastWin,
+      .slideMostWins,
+      .slideMostGames {
+        margin: 0;
+        font-size: 0.8rem;
+        font-weight: bold;
+        letter-spacing: 0.2ch;
+        bottom: 33vw;
+        width: 27vw;
+      }
+
+      .slideFunds,
+      .fundsAmount {
+        margin: 0;
+        font-size: 1rem;
+        letter-spacing: 0.0ch;
+        left: 32vw;
+        bottom: 49vw;
+        width: 14vw;
+      }
+
+      .addAmount {
+        left: 27vw;
+        bottom: 46vw;
+        width: 22vw;
+      }
+
+      .slideIframe {
+        border-radius: 5px;
+        background: transparent;
+        width: 21vw;
+        height: 27vw;
+        padding-right: 0px;
+        padding-left: 1px;
+        border-bottom-width: 0px;
+        border-bottom-style: solid;
+        border-top-width: 0px;
+        border-top-style: solid;
+        left: 30vw;
+        bottom: 20vw;
+      }
+
+      .slideIframe2 {
+        background-color: transparent;
+        width: 33vw;
+        height: 20vw;
+        left: 16vw;
+        bottom: 35vw;
+        opacity: 0.8;
+      }
+  
+      .slideWelcome {
+        font-size: 2.5rem;
+        font-weight: normal;
+        letter-spacing: 0.0ch;
+        text-transform: uppercase;
+        margin: 0;
+        width: 100%;
+        text-align: left;
+      }
+
+      .slideName {
+        font-size: 2.2rem;
+        font-weight: normal;
+        letter-spacing: 0.2ch;
+        text-transform: uppercase;
+        margin: 0;
+        width: 50%;
+        text-align: left;
+        bottom: 1em;
+      }
+
+      .slideNewCard {
+        width: 21em;
+      }
+  
+      .slideUserName {
+        font-size: 1.5rem;
+        font-weight: normal;
+        letter-spacing: 0.1ch;
+        width: 101%;
+      }
+    }
+  }
