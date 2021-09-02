@@ -18,7 +18,7 @@
     },
     {
       "sliderCard": 2,
-      "title": "Add Funds",
+      "fundsTitle": "Add Funds",
       "fundingSource": "Select Funding Source",
       "icon0": "faBitcoin",
       "icon1": "faPaypal",
@@ -43,22 +43,22 @@
     },
     {
       "sliderCard": 4,
-      "title": "4"
+      "four": "4"
     },
     {
       "sliderCard": 5,
-      "title": "5"
+      "five": "5"
     },
     {
       "sliderCard": 6,
-      "title": "6"
+      "six": "6"
     },
     {
       "sliderCard": 7,
-      "title": "7"
+      "seven": "7"
     },
     {
       "sliderCard": 8,
-      "title": "8"
+      "eight": "8"
     }
   ]

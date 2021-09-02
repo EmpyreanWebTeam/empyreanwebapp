@@ -109,6 +109,7 @@ function Slide({ slide, offset }) {
                           <div className="slideContentInner">
 
                               {/* SLIDER CARD 0 */}
+                              <div className="cardInfo">
                                 <h2 className="slideWelcome">{slide.welcome}</h2>
                                 <h2 className="slideBack">{slide.back}</h2>
                                 <h3 className="slideName">{slide.name}</h3>
@@ -124,7 +125,7 @@ function Slide({ slide, offset }) {
                                 </iframe>
                             
                                 {/* SLIDER CARD 1 */}
-                              <div className="cardInfo">
+                              
                                 <h3 className="slideUserName">{slide.userName}</h3>
                                   <p className="slideLastLogin">{slide.lastLogin}</p>
                                   <p className="slideWinnings">{slide.winnings}</p>
@@ -132,6 +133,7 @@ function Slide({ slide, offset }) {
                                   <p className="slideTips">{slide.tips}</p>
 
                                 {/* SLIDER CARD 2 */}
+                                <h2 className="fundsTitle">{slide.fundsTitle}</h2>
                                 <p className="fundingSource">{slide.fundingSource}</p>
                                 <div className="slideIconFlex">
                                   <div className="slideIcon">
@@ -152,15 +154,14 @@ function Slide({ slide, offset }) {
                                 
                                 <h3 className="slideCard">{slide.card}</h3>
                                 <p className="slideCardOnFile">
-                                  <p>{slide.cardOnFile0}</p>
-                                  <p>{slide.cardOnFile1}</p>
-                                  <p>{slide.cardOnFile2}</p>
-                                  <p>{slide.newCardDetails}</p>
+                                  <h6>{slide.cardOnFile0}</h6>
+                                  <h6>{slide.cardOnFile1}</h6>
+                                  <h6>{slide.cardOnFile2}</h6>
+                                  <button>{slide.newCardDetails}</button>
                                 </p>
                                 <p className="slideFunds">{slide.funds}</p>
                                 <p className="fundsAmount">{slide.fundsAmount}</p>
                                 <h2 className="addAmount">{slide.addAmount}</h2>
-                                {/* <p className="slideAddAmount">{slide.addAmount}</p> */}
 
                                 {/* SLIDER CARD 3 */}
                                 <h2 className="slideTitle">{slide.title}</h2>
@@ -180,15 +181,15 @@ function Slide({ slide, offset }) {
                                   </iframe>
                                 
                               {/* SLIDER CARD 4 */}
-                                <p className="slideTitle">{slide.title}</p>
+                                <p className="slideNumber">{slide.four}</p>
                               {/* SLIDER CARD 5 */}
-                                <p className="slideTitle">{slide.title}</p>
+                                <p className="slideNumber">{slide.five}</p>
                               {/* SLIDER CARD 6 */}
-                                <p className="slideTitle">{slide.title}</p>
+                                <p className="slideNumber">{slide.six}</p>
                               {/* SLIDER CARD 7 */}
-                                <p className="slideTitle">{slide.title}</p>
+                                <p className="slideNumber">{slide.seven}</p>
                               {/* SLIDER CARD 8 */}
-                                <p className="slideTitle">{slide.title}</p>
+                                <p className="slideNumber">{slide.eight}</p>
                             </div>
                           
                         
