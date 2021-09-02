@@ -78,7 +78,7 @@
         letter-spacing: 0.2ch;
         text-transform: uppercase;
         margin: 0;
-        width: 50%;
+        width: 44%;
         text-align: center;
         bottom: 2em;
         left: 9%;
@@ -87,6 +87,7 @@
       .slideIframe {
         background: transparent;
         width: 50%;
+        height: 50%;
         left: 16vw;
         bottom: 11vw;
       }
@@ -99,6 +100,7 @@
         margin: 0;
         width: 61%;
         text-align: left;
+        top: 0px;
       }
 
       .slideBack {
@@ -108,13 +110,14 @@
         text-transform: uppercase;
         margin: 0;
         width: 43%;
-        text-align: center;
-        bottom: 92px;
+        text-align: left;
+        bottom: 96px;
+        left: 43%;
       }
 
       .slideFunds, .fundsAmount {
         left: 28vw;
-        bottom: 46vw;
+        bottom: 60vw;
         width: 14vw;
       }
 
@@ -126,31 +129,32 @@
         margin: 0;
         width: 100%;
         text-align: center;
-        bottom: 27vw;
+        bottom: 36vw;
       }
 
       .fundingSource {
         width: 50%;
-        bottom: 29vw;
+        bottom: 36vw;
       }
 
       .slideIconFlex {
         right: 0px;
         display: flex;
-        bottom: 1vw;
+        bottom: 8vw;
         width: 50%;
+        top: 0vw;
       }
 
       .slideIcon {
         height: 4em;
         width: 5em;
         flex: auto;
-        bottom: 244px;
+        bottom: 308px;
       }
 
       .slideCard, .slideCardOnFile {
         width: 50%;
-        bottom: 32vw;
+        bottom: 38vw;
       }
 
       button[data-active] {
@@ -159,7 +163,7 @@
 
       .addAmount {
         left: 24vw;
-        bottom: 44vw;
+        bottom: 60vw;
         width: 22vw;
       }
   
@@ -177,7 +181,7 @@
         margin: 0;
         width: 100%;
         text-align: center;
-        bottom: 36vw;
+        bottom: 31vw;
       }
 
       .slideNumber {
@@ -189,16 +193,16 @@
       }
 
       .slideMostGames, .slideMostWins, .slideLastWin {
-        bottom: 37vw;
+        bottom: 32vw;
         width: 100%;
       }
 
       .slideIframe2 {
         background-color: transparent;
         width: 100%;
-        bottom: 36vw;
+        bottom: 31vw;
         opacity: 0.8;
-        height: 60%;
+        height: 50%;
       }
     }
 

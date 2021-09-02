@@ -1,48 +1,5 @@
 @media screen and (min-width: 1200px) {
 
-  // .card0 {
-  //   width: 50%;
-  //   height: 100%;
-  // }
-
-  // .card1 {
-  //   width: 100%;
-  // }
-
-  // .card2 {
-  //   width: 100%;
-  // }
-
-  // .card3 {
-  //   width: 100%;
-  //   bottom: 38vw;
-  //   height: 31vw;
-  // }
-
-  // .card4 {
-  //   width: 100%;
-  // }
-
-  // .card5 {
-  //   width: 100%;
-  // }
-
-  // .card6 {
-  //   width: 100%;
-  // }
-
-  // .card7 {
-  //   width: 100%;
-  // }
-
-  // .card8 {
-  //   width: 100%;
-  // }
-
-  .randomInfo {
-    width: 100%;
-  }
-
   .slider {
     top: 18px;
   }
@@ -142,15 +99,15 @@
       .slideIconFlex {
         right: 21vw;
         display: flex;
-        justify-content: left;
-        align-items: start;
+        bottom: 0vw;
+        width: 50%;
+        top: 16vw
       }
 
       .slideIcon {
         height: 4em;
         width: 5em;
         flex: auto;
-        right: 0vw;
         bottom: 14vw;
       }
 
@@ -187,18 +144,11 @@
       }
 
       .slideIframe {
-        border-radius: 5px;
         background: transparent;
-        width: 21vw;
-        height: 27vw;
-        padding-right: 0px;
-        padding-left: 1px;
-        border-bottom-width: 0px;
-        border-bottom-style: solid;
-        border-top-width: 0px;
-        border-top-style: solid;
-        left: 30vw;
-        bottom: 17vw;
+        width: 50%;
+        height: 50%;
+        left: 16vw;
+        bottom: 11vw;
       }
 
       .slideIframe2 {
@@ -216,7 +166,7 @@
         margin: 0;
         width: 50%;
         text-align: left;
-        padding: 10px 10px 10px 23px;
+        padding: 10px 10px 10px 10px;
       }
   
       .slideWelcome {
@@ -227,19 +177,19 @@
         margin: 0;
         width: 100%;
         text-align: left;
-        top: 1%;
+        top: 59px;
       }
 
       .slideBack {
         font-size: 2.5rem;
         font-weight: normal;
-        letter-spacing: 0.0ch;
+        letter-spacing: 0ch;
         text-transform: uppercase;
         margin: 0;
-        width: 100%;
-        text-align: right;
-        left: 30%;
-        bottom: 21%;
+        width: 53%;
+        text-align: left;
+        left: 43%;
+        bottom: 37px;
       }
 
       .slideName {
@@ -248,10 +198,9 @@
         letter-spacing: 0.2ch;
         text-transform: uppercase;
         margin: 0;
-        width: 100%;
+        width: 64%;
         text-align: center;
         bottom: 2em;
-        left: 20%;
       }
 
       .slideNewCard {
