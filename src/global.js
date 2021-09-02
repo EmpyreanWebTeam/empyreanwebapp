@@ -23,11 +23,11 @@ export const GlobalStyles = createGlobalStyle`
     text-align: center;
     text-transform: uppercase;
   }
-  img {
-    border-radius: 5px;
-    height: auto;
-    width: 3rem;
-  }
+  // img {
+  //   border-radius: 5px;
+  //   height: auto;
+  //   width: 3rem;
+  // }
   div {
     text-align: center;
   }

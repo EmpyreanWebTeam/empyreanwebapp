@@ -180,4 +180,45 @@
         opacity: 0.8;
       }
     }
+
+    // .EEhamburger {
+    //   border-radius: 5px;
+    //   height: auto;
+    //   width: 9rem;
+    //   right: 32px;
+    //   top: 30px;
+    //   display:inline-block;
+    //   background: transparent;
+    //   transition: transform .7s;
+    // }
+    
+    // .EEhamburger:hover {
+    //   -ms-transform: scale(1.5); /* IE 9 */
+    //   -webkit-transform: scale(1.5); /* Safari 3-8 */
+    //   transform: scale(1.5);
+    // }
+
+    .EEhamburger {
+      margin:0 35% 0 35%;
+      width: 9rem;
+      height: auto;
+      background: transparent;
+      display:inline-block;
+    }
+
+    .EEhamburger, img {
+      border-radius: 5px;
+      height: auto;
+      width: 4rem;
+    }
+
+    .shadowfilter {
+      -webkit-filter: drop-shadow(0px 0px 0px #be8933);
+      -webkit-transition: all 0.5s linear;
+      -o-transition: all 0.5s linear;
+      transition: all 0.5s linear;
+      
+    }.shadowfilter:hover {
+      -webkit-filter: drop-shadow(0px 0px 8px #9b630c);
+    }
   }
