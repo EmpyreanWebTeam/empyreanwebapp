@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/empyreanwebapp/static/css/main.a2f40f8b.chunk.css",
+    "main.css": "/empyreanwebapp/static/css/main.cd1ae5aa.chunk.css",
     "main.js": "/empyreanwebapp/static/js/main.76ebadc7.chunk.js",
     "main.js.map": "/empyreanwebapp/static/js/main.76ebadc7.chunk.js.map",
     "runtime-main.js": "/empyreanwebapp/static/js/runtime-main.52bcc4b7.js",
@@ -10,7 +10,7 @@
     "static/js/3.fb424368.chunk.js": "/empyreanwebapp/static/js/3.fb424368.chunk.js",
     "static/js/3.fb424368.chunk.js.map": "/empyreanwebapp/static/js/3.fb424368.chunk.js.map",
     "index.html": "/empyreanwebapp/index.html",
-    "static/css/main.a2f40f8b.chunk.css.map": "/empyreanwebapp/static/css/main.a2f40f8b.chunk.css.map",
+    "static/css/main.cd1ae5aa.chunk.css.map": "/empyreanwebapp/static/css/main.cd1ae5aa.chunk.css.map",
     "static/js/2.dbee8e6f.chunk.js.LICENSE.txt": "/empyreanwebapp/static/js/2.dbee8e6f.chunk.js.LICENSE.txt",
     "static/media/swiper.scss": "/empyreanwebapp/static/media/BG.38c61adc.png",
     "static/media/App.css": "/empyreanwebapp/static/media/blairitc-tt-bold.0b06718a.ttf"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.52bcc4b7.js",
     "static/js/2.dbee8e6f.chunk.js",
-    "static/css/main.a2f40f8b.chunk.css",
+    "static/css/main.cd1ae5aa.chunk.css",
     "static/js/main.76ebadc7.chunk.js"
   ]
 }
