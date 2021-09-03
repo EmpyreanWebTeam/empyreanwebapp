@@ -5,7 +5,7 @@
     "welcome": "Welcome",
     "back": "Back",
     "name": "Greg",
-    "iframe": "https://clara.io/player/v2/500eaba8-395c-46ff-abfd-b7e1b3f5807f?wait=false&allowTransparency=true&renderer=webgl&timeline=true&bgColor=0xffffff&tools=hide"
+    "iframe": "https://clara.io/player/v2/52bbdf88-9908-40a6-bf83-538db4c501af?wait=false&allowTransparency=true&renderer=webgl&timeline=true&bgColor=0xffffff&tools=hide&configurator.show=true"
   },
     {
       "sliderCard": 1,
@@ -27,7 +27,7 @@
       "cardOnFile0": "XXXX-XXXX-XXXX-4321",
       "cardOnFile1": "XXXX-XXXX-XXXX-5432", 
       "cardOnFile2": "XXXX-XXXX-XXXX-6543",
-      "newCardDetails": "Enter New Card",
+      "newCardDetails": "Enter New Card ____-____-____-____",
       "funds": "Current Funds",
       "fundsAmount": "$500.00",
       "addAmount": "Amount to add:  $500.00"

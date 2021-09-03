@@ -68,7 +68,7 @@
         font-size: 0.8rem;
         font-weight: bold;
         letter-spacing: 0.2ch;
-        bottom: 22vw;
+        bottom: 12vw;
         width: 100%;
       }
 
@@ -80,16 +80,29 @@
         margin: 0;
         width: 44%;
         text-align: center;
-        bottom: 2em;
+        bottom: 3em;
         left: 9%;
       }
 
       .slideIframe {
         background: transparent;
+        width: 100%;
+        height: 450px;
+        left: 0px;
+        bottom: 12vw;
+        position: absolute;
+        top: 0px;
+      }
+
+      .iframeWrapper {
+        position: relative;
+        z-index: 1;
+        display: inline-block;
         width: 50%;
-        height: 50%;
-        left: 16vw;
-        bottom: 11vw;
+        height: 403px;
+        overflow: hidden;
+        bottom: 10vw;
+        left: 14vw;
       }
   
       .slideWelcome {
@@ -101,6 +114,7 @@
         width: 61%;
         text-align: left;
         top: 0px;
+        left: 3%;
       }
 
       .slideBack {
@@ -112,14 +126,13 @@
         width: 43%;
         text-align: left;
         bottom: 96px;
-        left: 43%;
+        left: 45%;
       }
 
-      .slideFunds, .fundsAmount {
-        left: 28vw;
-        bottom: 60vw;
-        width: 14vw;
-      }
+      // .slideFunds, .fundsAmount {
+      //   left: 28vw;
+      //   width: 14vw;
+      // }
 
       .fundsTitle {
         font-size: 2.5rem;
@@ -129,18 +142,30 @@
         margin: 0;
         width: 100%;
         text-align: center;
-        bottom: 36vw;
+      }
+
+      .fundsTitle, 
+      .fundingSource,
+      .slideCard, 
+      .slideCardOnFile {
+        bottom: 27vw;
+      }
+
+      .slideFunds, 
+      .fundsAmount, 
+      .addAmount {
+        left: 28vw;
+        width: 23vw;
+        bottom: 50vw;
       }
 
       .fundingSource {
         width: 50%;
-        bottom: 36vw;
       }
 
       .slideIconFlex {
         right: 0px;
         display: flex;
-        bottom: 8vw;
         width: 50%;
         top: 0vw;
       }
@@ -149,23 +174,21 @@
         height: 4em;
         width: 5em;
         flex: auto;
-        bottom: 308px;
+        bottom: 217px;
       }
 
       .slideCard, .slideCardOnFile {
         width: 50%;
-        bottom: 38vw;
       }
 
       button[data-active] {
         right: 147px;
       }
 
-      .addAmount {
-        left: 24vw;
-        bottom: 60vw;
-        width: 22vw;
-      }
+      // .addAmount {
+      //   left: 24vw;
+      //   width: 22vw;
+      // }
   
       .slideUserName {
         font-size: 1.5rem;
@@ -189,20 +212,22 @@
         font-size: 2.5rem;
         font-weight: normal;
         text-align: center;
-        bottom: 36vw;
+        bottom: 41vw;
       }
 
-      .slideMostGames, .slideMostWins, .slideLastWin {
+      .slideMostGames, 
+      .slideMostWins, 
+      .slideLastWin {
         bottom: 32vw;
         width: 100%;
       }
 
       .slideIframe2 {
         background-color: transparent;
-        width: 100%;
-        bottom: 31vw;
+        width: 57%;
+        bottom: 32vw;
         opacity: 0.8;
-        height: 50%;
+        height: 33%;
       }
     }
 

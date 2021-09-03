@@ -112,16 +112,19 @@ function Slide({ slide, offset }) {
                                 <h2 className="slideWelcome">{slide.welcome}</h2>
                                 <h2 className="slideBack">{slide.back}</h2>
                                 <h3 className="slideName">{slide.name}</h3>
-                                <iframe
-                                  className="slideIframe"
-                                  src={slide.iframe}
-                                  backgroundColor="red"
-                                  title="My Avitar"
-                                  frameBorder="0" 
-                                  scrolling="no" 
-                                  allowFullScreen="false"
-                                  allowtransparency="true">
-                                </iframe>
+                                <div className="iframeWrapper">
+                                  {/* <div className="hideLogo"></div> */}
+                                  <iframe
+                                    className="slideIframe"
+                                    src={slide.iframe}
+                                    backgroundColor="red"
+                                    title="My Avitar"
+                                    frameBorder="0" 
+                                    scrolling="no" 
+                                    allowFullScreen="false"
+                                    allowtransparency="true">
+                                  </iframe>
+                                </div>
                             
                                 {/* SLIDER CARD 1 */}
                               
@@ -156,7 +159,7 @@ function Slide({ slide, offset }) {
                                   <h6>{slide.cardOnFile0}</h6>
                                   <h6>{slide.cardOnFile1}</h6>
                                   <h6>{slide.cardOnFile2}</h6>
-                                  <button>{slide.newCardDetails}</button>
+                                  <p>{slide.newCardDetails}</p>
                                 </p>
                                 <p className="slideFunds">{slide.funds}</p>
                                 <p className="fundsAmount">{slide.fundsAmount}</p>
