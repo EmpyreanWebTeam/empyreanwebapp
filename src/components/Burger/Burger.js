@@ -5,7 +5,7 @@ import Hamburger from '../../images/avatar_logo_clear.png';
 import '../../style/swiper.scss';
 import '../../style/swiperLaptop.scss';
 import '../../style/swiperDesktop.scss';
-import '../../style/swiperMobile.scss';
+// import '../../style/swiperMobile.scss';
 
 
 const Burger = ({ open, setOpen, ...props }) => {
