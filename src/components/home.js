@@ -1,30 +1,3 @@
-// import '../App.css';
-// import '../style/styles.css';
-// import React from 'react';
-// import Room from '../images/speakeasyRoom3.jpeg';
-// import Slides from './slides';
-
-
-// class Home extends React.Component {
-//     render() {
-//         return (
-//             <div>
-//             <div className="slider">
-//                 <Slides />
-//             </div>
-//                 <img src={Room} 
-//                      className="background" 
-//                      alt="background" 
-//                 />
-//             </div>
-            
-//         );
-//     }
-
-// }
-
-// export default Home;
-
 import React from "react";
 import Laptop from "../components/responsive/laptop";
 import Desktop from "../components/responsive/desktop";
@@ -42,15 +15,15 @@ const Home = () => {
         return isDesktop ? children : null
       }
     const LaptopResponsive = ({ children }) => {
-        const isLaptop = useMediaQuery({ minWidth: 768, maxWidth: 1549 })
+        const isLaptop = useMediaQuery({ minWidth: 856, maxWidth: 1549 })
         return isLaptop ? children : null
     }
-    const TabletResponsive = ({ children }) => {
-        const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 991 })
-        return isTablet ? children : null
-      }
+    // const TabletResponsive = ({ children }) => {
+    //     const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 991 })
+    //     return isTablet ? children : null
+    //   }
       const MobileResponsive = ({ children }) => {
-        const isMobile = useMediaQuery({ maxWidth: 767 })
+        const isMobile = useMediaQuery({ maxWidth: 855 })
         return isMobile ? children : null
       }
 
@@ -63,9 +36,9 @@ const Home = () => {
           <LaptopResponsive>
             <Laptop />
           </LaptopResponsive>
-          <TabletResponsive>
+          {/* <TabletResponsive>
             <Tablet />
-          </TabletResponsive>
+          </TabletResponsive> */}
           <MobileResponsive>
             <Mobile />
           </MobileResponsive>
