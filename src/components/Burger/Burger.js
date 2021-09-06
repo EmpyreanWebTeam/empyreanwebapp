@@ -2,10 +2,10 @@ import React from 'react';
 import { bool, func } from 'prop-types';
 import { StyledBurger } from './Burger.styled';
 import Hamburger from '../../images/avatar_logo_clear.png';
-import '../../style/swiper.scss';
-import '../../style/swiperLaptop.scss';
-import '../../style/swiperDesktop.scss';
-// import '../../style/swiperMobile.scss';
+import '../../style/_swiper.scss';
+import '../../style/_swiperLaptop.scss';
+import '../../style/_swiperDesktop.scss';
+// import '../../style/_swiperMobile.scss';
 
 
 const Burger = ({ open, setOpen, ...props }) => {

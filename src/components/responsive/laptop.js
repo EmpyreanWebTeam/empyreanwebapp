@@ -6,8 +6,8 @@ import Slides from '../slides';
 
 
 // Style
-import "../../style/swiper.scss";
-import "../../style/swiperLaptop.scss";
+import "../../style/_swiper.scss";
+import "../../style/_swiperLaptop.scss";
 import "../../style/base.css";
 // import "../../style/styles.css";
 

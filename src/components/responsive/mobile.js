@@ -3,8 +3,8 @@ import { useMediaQuery } from 'react-responsive'
 
 import Slides from '../slides'
 
-import "../../style/swiper.scss";
-import "../../style/swiperMobile.scss";
+import "../../style/_swiper.scss";
+import "../../style/_swiperMobile.scss";
 import "../../style/base.css";
 
 function Mobile() {

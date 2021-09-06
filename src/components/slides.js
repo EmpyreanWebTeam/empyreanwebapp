@@ -7,7 +7,7 @@ import "@fortawesome/free-brands-svg-icons";
 // import Glitch from "../glitch";
 
 //Style
-import "../style/swiper.scss";
+import "../style/_swiper.scss";
 // import "../../style/glitch.scss";
 
 //Images

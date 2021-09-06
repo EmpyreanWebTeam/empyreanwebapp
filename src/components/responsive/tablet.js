@@ -3,7 +3,7 @@ import { useMediaQuery } from 'react-responsive'
 
 import Slides from '../slides'
 
-import "../../style/swiper.scss";
+import "../../style/_swiper.scss";
 
 function Tablet() {
     const Tablet = ({ children }) => {

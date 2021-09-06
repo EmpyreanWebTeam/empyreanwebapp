@@ -5,8 +5,8 @@ import { useMediaQuery } from 'react-responsive';
 import Slides from '../slides';
 
 //Style
-import "../../style/swiper.scss";
-import "../../style/swiperDesktop.scss"
+import "../../style/_swiper.scss";
+import "../../style/_swiperDesktop.scss"
 import "../../style/base.css";
 // import "../../style/styles.css";
 
