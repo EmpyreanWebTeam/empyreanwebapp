@@ -10,15 +10,15 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "chokidar": "^3.5.2",
     "gh-pages": "^3.2.3",
     "gsap": "^3.7.1",
     "react": "^17.0.2",
-    "react-depth-map": "^1.0.9",
     "react-dom": "^17.0.2",
     "react-focus-lock": "^2.5.2",
     "react-responsive": "^9.0.0-beta.3",
     "react-router-dom": "^5.2.1",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^1.1.5",
     "sass": "^1.38.2",
     "styled-components": "^5.3.1",
     "web-vitals": "^1.0.1"
@@ -50,7 +50,6 @@
   "browserslist": {
     "production": [
       ">0.2%",
-      "not dead",
       "not op_mini all"
     ],
     "development": [

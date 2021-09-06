@@ -1,0 +1,328 @@
+@media screen and (min-width: 1200px) {
+
+  .slider {
+    top: 18px;
+  }
+
+  .slides {
+    margin-top: 0%;
+    margin-left: 18%;
+    width: 64%;
+    z-index: 2;
+    display: grid;
+    align-items: center;
+    padding: 5% 5% 5% 5%;
+    top: 95px;
+    > .slide {
+      grid-area: -1 / 1;
+    }
+
+    > button {
+      appearance: none;
+      background: transparent;
+      border: none;
+      color: white;
+      position: absolute;
+      font-size: 5rem;
+      width: 5rem;
+      height: 5rem;
+      top: 30%;
+      transition: opacity 0.3s;
+      opacity: 0.7;
+      z-index: 5;
+
+      &:hover {
+        opacity: 1;
+      }
+
+      &:focus {
+        outline: none;
+      }
+
+      &:first-child {
+        left: 97%;
+        top: 20vw;
+      }
+      &:last-child {
+        right: 97%;
+        top: 20vw;
+      }
+    }
+  }
+
+    .EEhamburger {
+      border-radius: 5px;
+      height: 4rem;
+      width: 4rem;
+      left: 21px;
+      top: 35px;
+    }
+
+    .slideContentInner {
+      transform-style: preserve-3d;
+      transition: opacity 0.3s linear;
+      text-shadow: -10px 10px 9px black;
+      bottom: 14vw;
+      width: 100%;
+  
+      .slideName,
+      .slideUserName,
+      .slideLastLogin,  
+      .slideLastDeposit, 
+      .slideWinnings,
+      .slideEarnings, 
+      .slideTips,
+      .slideDescription {
+        margin: 0;
+        font-size: 0.8rem;
+        font-weight: bold;
+        letter-spacing: 0.2ch;
+        bottom: 12vw;
+        width: 100%;
+        padding-left: 11px;
+        padding-right: 11px;
+      }
+
+      .fundsTitle {
+        font-size: 2.5rem;
+        font-weight: normal;
+        letter-spacing: 0ch;
+        text-transform: uppercase;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        bottom: 356px;
+      }
+
+      .fundingSource {
+        bottom: 383px;
+        width: 24vw;
+      }
+
+      .slideIconFlex {
+        right: 0vw;
+        display: flex;
+        bottom: 8vw;
+        width: 50%;
+        top: 0vw
+      }
+
+      .slideIcon {
+        height: 4em;
+        width: 5em;
+        flex: auto;
+        bottom: 205px;
+        right: 9px;
+      }
+
+      .slideCard, .slideCardOnFile {
+        right: 0vw;
+        width: 50%;
+        bottom: 29vw;
+      }
+
+      .slideLastWin,
+      .slideMostWins,
+      .slideMostGames {
+        bottom: 35vw;
+        width: 100%;
+      }
+
+      .slideNumber {
+        width: 100%;
+        font-size: 2.5rem;
+        font-weight: normal;
+        text-align: center;
+        bottom: 39vw;
+      }
+
+      .slideFunds,
+      .fundsAmount {
+        margin: 0;
+        font-size: 1rem;
+        letter-spacing: 0.0ch;
+        left: 25vw;
+        bottom: 54vw;
+        width: 50%;
+      }
+
+      .addAmount {
+        left: 27vw;
+        bottom: 52vw;
+        width: 22vw;
+      }
+
+      .slideIframe {
+        background: transparent;
+        width: 116%;
+        height: 448px;
+        left: 0px;
+        bottom: 12vw;
+        position: absolute;
+        top: 0px;
+      }
+
+      .iframeWrapper {
+        position: relative;
+        z-index: 1;
+        display: inline-block;
+        width: 50%;
+        height: 403px;
+        overflow: hidden;
+        bottom: 10vw;
+        left: 14vw;
+    }
+
+      .slideIframe2 {
+        background-color: transparent;
+        width: 60%;
+        bottom: 524px;
+        opacity: 0.8;
+        height: 28%;
+      }
+      
+      .slideTitle {
+        font-size: 2.5rem;
+        font-weight: normal;
+        letter-spacing: 0.0ch;
+        text-transform: uppercase;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        bottom: 32vw;
+      }
+  
+      .slideWelcome {
+        font-size: 2.5rem;
+        font-weight: normal;
+        letter-spacing: 0.2ch;
+        text-transform: uppercase;
+        margin: 0;
+        width: 61%;
+        text-align: left;
+        top: 59px;
+        left: 3%;
+      }
+
+      .slideBack {
+        font-size: 2.5rem;
+        font-weight: normal;
+        letter-spacing: 0ch;
+        text-transform: uppercase;
+        margin: 0;
+        width: 53%;
+        text-align: left;
+        left: 50%;
+        bottom: 37px;
+      }
+
+      .slideName {
+        font-size: 2.2rem;
+        font-weight: normal;
+        letter-spacing: 0.2ch;
+        text-transform: uppercase;
+        margin: 0;
+        width: 64%;
+        text-align: center;
+        bottom: 1em;
+        left: 5%;
+      }
+
+      .slideNewCard {
+        width: 21em;
+      }
+  
+      .slideUserName {
+        font-size: 1.5rem;
+        font-weight: normal;
+        letter-spacing: 0.1ch;
+        width: 100%;
+      }
+    }
+
+    .EEhamburger {
+      margin:0 35% 0 35%;
+      width: 9rem;
+      height: auto;
+      background: transparent;
+      display:inline-block;
+    }
+
+    .EEhamburger, img {
+      border-radius: 5px;
+      height: auto;
+      width: 4rem;
+    }
+
+    .shadowfilter {
+      -webkit-filter: drop-shadow(0px 0px 0px #2d2c42b0);
+      -webkit-transition: all 0.5s linear;
+      -o-transition: all 0.5s linear;
+      transition: all 0.5s linear;
+      
+    }.shadowfilter:hover {
+      -webkit-filter: drop-shadow(0px 0px 8px #919149); 
+    }
+  }
+
+  .slideContent {
+    position: absolute;
+      -webkit-transform: none;
+      transform: none;
+        color: #f5e7c9;
+        background-color: #22274654;
+        border: solid 1px #919149;
+        border-radius: 15px;
+        opacity: 0.85;
+        text-align: justify;
+        line-height: 2.4;
+        width: 100%;
+        height: 35vw;
+      transition: opacity 0.7s ease,-webkit-transform .7s ease;
+      transition: opacity 0.7s ease,transform .7s ease;
+      transition: opacity 0.7s ease,transform .7s ease,-webkit-transform .7s ease;
+    background-position: center center;
+  
+    display: grid;
+    align-content: center;
+  
+    transform-style: preserve-3d;
+    transform: perspective(2000px) translateX(calc(95% * var(--offset))) 
+      rotateY(calc(-45deg * var(--dir)));
+    // transform: perspective(1000px) translateX(calc(115% * var(--offset)))
+    //   rotateY(calc(-35deg * var(--dir)));
+  }
+
+  .slide[data-active] {
+    z-index: 2;
+    pointer-events: auto;
+  
+    .slideBackground {
+      opacity: 0.2;
+      transform: none;
+    }
+  
+    .slideContentInner {
+      opacity: 0.85;
+    }
+  
+    .slideContent {
+      --x: calc(var(--px) - 0.5);
+      --y: calc(var(--py) - 0.5);
+      opacity: 1;
+  
+      transform: perspective(1000px);
+      background-color: #2d2c42b0;
+      // -webkit-filter: drop-shadow(0px 0px 0px #918c65d4);
+      //   -webkit-transition: all 0.5s linear;
+      //   -o-transition: all 0.5s linear;
+      //   transition: all 0.5s linear;
+      &:hover {
+        // background-color: #918c65d4;
+        // -webkit-filter: drop-shadow(0px 0px 8px #918c65d4);
+        transition: none;
+        transform: perspective(1000px) rotateY(calc(var(--x) * 5deg))
+          rotateX(calc(var(--y) * -5deg));
+      }
+    }
+  }

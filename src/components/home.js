@@ -18,10 +18,10 @@ const Home = () => {
         const isLaptop = useMediaQuery({ minWidth: 856, maxWidth: 1549 })
         return isLaptop ? children : null
     }
-    // const TabletResponsive = ({ children }) => {
-    //     const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 991 })
-    //     return isTablet ? children : null
-    //   }
+    const TabletResponsive = ({ children }) => {
+        const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 991 })
+        return isTablet ? children : null
+      }
       const MobileResponsive = ({ children }) => {
         const isMobile = useMediaQuery({ maxWidth: 855 })
         return isMobile ? children : null
@@ -36,9 +36,9 @@ const Home = () => {
           <LaptopResponsive>
             <Laptop />
           </LaptopResponsive>
-          {/* <TabletResponsive>
+          <TabletResponsive>
             <Tablet />
-          </TabletResponsive> */}
+          </TabletResponsive>
           <MobileResponsive>
             <Mobile />
           </MobileResponsive>

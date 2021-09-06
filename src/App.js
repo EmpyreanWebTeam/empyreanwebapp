@@ -27,10 +27,10 @@ import Home from './components/home';
 // import ECvid from './components/ECvid';
 
 const Links = () => (
-  <>
+  <div>
     {/* <Link to="/ECvid"></Link> */}
     <Link to="/"></Link>
-  </>
+  </div>
 );
 
 
@@ -51,7 +51,7 @@ const App = () => {
   return (
     <div>
     <ThemeProvider theme={theme}>
-      <>
+      <div>
         <GlobalStyles />
         <div ref={node}>
           <FocusLock disabled={!open}>
@@ -86,7 +86,7 @@ const App = () => {
         }}
       />
     </BrowserRouter>
-    </>
+    </div>
     </ThemeProvider>
     </div>
   );
