@@ -29,7 +29,7 @@ body {
 }
 
 .background {
-  background-image: url("../images/BG.png");
+  background-image: url("../images/windowView.png");
   background-size: cover;
   background-position: 50% 50%;
   position: fixed;
@@ -78,8 +78,8 @@ body {
     -webkit-transform: none;
     transform: none;
       color: #f5e7c9;
-      background-color: #00000054;
-      border: solid 1px #9b630c;
+      background-color: #22274654;
+      border: solid 1px #919149;
       border-radius: 15px;
       opacity: 0.85;
       text-align: justify;
@@ -258,7 +258,7 @@ div.shadow.slideIframe2 {
     opacity: 1;
 
     transform: perspective(1000px);
-    background-color: #1c1c1cd4;
+    background-color: #2d2c42b0;
     // -webkit-filter: drop-shadow(0px 0px 0px #918c65d4);
     //   -webkit-transition: all 0.5s linear;
     //   -o-transition: all 0.5s linear;

@@ -40,12 +40,12 @@
       }
 
       &:first-child {
-        right: 7%;
-        top: 40vw;
+        left: 97%;
+        top: 20vw;
       }
       &:last-child {
-        left: 7%;
-        top: 40vw;
+        right: 97%;
+        top: 20vw;
       }
     }
   }
@@ -54,8 +54,8 @@
       border-radius: 5px;
       height: 4rem;
       width: 4rem;
-      right: 3px;
-      top: 21px;
+      left: 21px;
+      top: 35px;
     }
 
     .slideContentInner {
@@ -255,12 +255,12 @@
     }
 
     .shadowfilter {
-      -webkit-filter: drop-shadow(0px 0px 0px #be8933);
+      -webkit-filter: drop-shadow(0px 0px 0px #2d2c42b0);
       -webkit-transition: all 0.5s linear;
       -o-transition: all 0.5s linear;
       transition: all 0.5s linear;
       
     }.shadowfilter:hover {
-      -webkit-filter: drop-shadow(0px 0px 8px #9b630c);
+      -webkit-filter: drop-shadow(0px 0px 8px #919149); 
     }
   }
