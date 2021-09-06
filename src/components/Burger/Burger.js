@@ -1,7 +1,7 @@
 import React from 'react';
 import { bool, func } from 'prop-types';
 import { StyledBurger } from './Burger.styled';
-import Hamburger from '../../images/avatar_logo_clear.png';
+import Hamburger from '../../images/logo_white.png';
 import '../../style/swiper.scss';
 import '../../style/swiperLaptop.scss';
 import '../../style/swiperDesktop.scss';
